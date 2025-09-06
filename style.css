@@ -1,0 +1,60 @@
+/* Overall page styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: navy;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Form container */
+form {
+  background-color: white;
+  color: navy;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* red glow */
+  width: 300px;
+  text-align: left;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid navy;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+/* Message display */
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: lightgreen;
+}
+
+/* Surprise button styling */
+#surpriseBtn {
+  margin-top: 30px;
+  background-color: white;
+  color: navy;
+  border: 2px solid red;
+}
